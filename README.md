@@ -99,9 +99,13 @@ forge create src/NonceAlertReceiver.sol:NonceAlertReceiver \
 path = "out/NonceMonitorTrap.sol/NonceMonitorTrap.json"
 response_contract = "<NonceAlertReceiver address>"
 response_function = "logNonceAnomaly"
+cooldown_period_blocks = 33
+min_number_of_operators = 1
+max_number_of_operators = 2
 block_sample_size = 10
 private_trap = true
 whitelist = ["0xYOUR_ADDRESS"]
+address = ["0xYOUR_TRAP_ADDRESS"]
 ```
 
 ### 4. Apply Trap
@@ -131,6 +135,6 @@ ShouldRespond='true' trap_address=0x... block_number=...
 
 ## 🧩 Author
 
-- Author: @nordmail
+- Author: [Your Name]
 - Created: August 2025
 - License: MIT
