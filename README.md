@@ -137,4 +137,4 @@ ShouldRespond='true' trap_address=0x... block_number=...
 
 - Author: @nordmail
 - Created: August 2025
-- License: MIT
+- Discord: nord6088
