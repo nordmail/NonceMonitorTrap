@@ -133,8 +133,7 @@ ShouldRespond='true' trap_address=0x... block_number=...
 
 ---
 
-## 🧩 Author
-
-- Author: @nordmail
+## 🧩 Date & Author
 - Created: August 2025
+- Author: @nordmail
 - Discord: nord6088
