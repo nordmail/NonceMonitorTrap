@@ -135,6 +135,6 @@ ShouldRespond='true' trap_address=0x... block_number=...
 
 ## 🧩 Author
 
-- Author: [Your Name]
+- Author: @nordmail
 - Created: August 2025
 - License: MIT
