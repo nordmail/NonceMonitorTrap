@@ -27,7 +27,7 @@ interface ITrap {
 }
 
 contract NonceMonitorTrap is ITrap {
-    address public constant target = 0xbe5932ea270bA07bD88c74F102329f45bc9C125C;
+    address public constant target = ["0xYOUR_ADDRESS"];
     uint256 public constant maxNormalIncrement = 5;
 
     function collect() external view override returns (bytes memory) {
